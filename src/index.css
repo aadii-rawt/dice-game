@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    @apply
+    bg-black text-white
+    py-2 px-4 
+    cursor-pointer
+}
+
+.diceNumbers{
+    @apply 
+    w-[30px]
+    h-[30px]
+    p-2
+    flex items-center justify-center
+    text-black  bg-white
+    cursor-pointer font-semibold
+    border-2 border-black
+}
+.selectedDice{
+   @apply bg-black text-white
+}
